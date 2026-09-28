@@ -1,34 +1,35 @@
-        nav {
-            background-color: #333;
-        }
+    body {
+        background: url("../images/K.jpg") center / cover no-repeat fixed;
+        min-height: 100vh;
+    }
 
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-        }
+    nav {
+        background-color: #333;
+    }
 
-        nav li {
-            margin-right: 20px;
-        }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 14px 20px;
-            display: block;
-        }
+    nav li {
+        margin-right: 20px;
+    }
 
-        /* Hover effect */
-        nav a:hover {
-            background-color: #575757;
-        }
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 14px 20px;
+        display: block;
+    }
 
-        /* Active (current page) link */
-        nav a.active {
-            background-color: #04AA6D;
-            /* a green highlight */
-            font-weight: bold;
-            /* make it stand out */
-        }
+    nav a:hover {
+        background-color: #575757;
+    }
+
+    nav a.active {
+        background-color: #04AA6D;
+        font-weight: bold;
+    }
